@@ -1,8 +1,7 @@
 # XRadioGroup
 可以实现任意嵌套RadioButton
 
-![效果截图](../capture/device-2017-02-10-161156.png "效果截图")
-<img src="../capture/device-2017-02-10-161156.png"/>
+![效果截图](https://github.com/fodroid/XRadioGroup/blob/master/capture/device-2017-02-10-161156.png "效果截图")
 
 #Usage 使用
 
