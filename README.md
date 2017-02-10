@@ -5,12 +5,12 @@
 java代码中使用方式与`android.widget.RadioGroup`完全一致
 
         XRadioGroup xRadioGroup = (XRadioGroup) findViewById(R.id.xRadioGroup);
-                xRadioGroup.setOnCheckedChangeListener(new XRadioGroup.OnCheckedChangeListener() {
-                    @Override
-                    public void onCheckedChanged(XRadioGroup group, @IdRes int checkedId) {
-                        Log.d("TAG", checkedId + "is checked");
-                    }
-                });
+        xRadioGroup.setOnCheckedChangeListener(new XRadioGroup.OnCheckedChangeListener() {
+             @Override
+             public void onCheckedChanged(XRadioGroup group, @IdRes int checkedId) {
+                  Log.d("TAG", checkedId + "is checked");
+             }
+         });
 在xml中你可以里面嵌套使用
 
         <me.shihao.library.XRadioGroup
