@@ -1,6 +1,9 @@
 # XRadioGroup
 可以实现任意嵌套RadioButton
 
+![效果截图](../capture/device-2017-02-10-161156.png "效果截图")
+<img src="../capture/device-2017-02-10-161156.png"/>
+
 #Usage 使用
 
 `gradle`
