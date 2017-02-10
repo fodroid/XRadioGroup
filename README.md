@@ -3,6 +3,38 @@
 
 #Usage 使用
 
+`gradle`
+
+Add it in your root build.gradle at the end of repositories:
+
+    allprojects {
+	    repositories {
+		        ...
+		        maven { url 'https://jitpack.io' }
+	    }
+    }
+Add the dependency
+
+	dependencies {
+	        compile 'com.github.fodroid:XRadioGroup:v1.1'
+	}
+
+`maven`
+
+	<repositories>
+		<repository>
+		    <id>jitpack.io</id>
+		    <url>https://jitpack.io</url>
+		</repository>
+	</repositories>
+
+	<dependency>
+	    <groupId>com.github.fodroid</groupId>
+	    <artifactId>XRadioGroup</artifactId>
+	    <version>v1.1</version>
+	</dependency>
+
+
 
 java代码中使用方式与`android.widget.RadioGroup`完全一致
 
