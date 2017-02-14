@@ -2,6 +2,7 @@
 可以实现任意嵌套RadioButton
 
 ![效果截图](https://github.com/fodroid/XRadioGroup/blob/master/capture/device-2017-02-10-161156.png "效果截图")
+<img src="https://github.com/fodroid/XRadioGroup/blob/master/capture/device-2017-02-10-161156.png" width="480" height="800"></img>
 
 #Usage 使用
 
