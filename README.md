@@ -39,7 +39,7 @@ Add the dependency
 
 
 java代码中使用方式与`android.widget.RadioGroup`完全一致
-
+```java
         XRadioGroup xRadioGroup = (XRadioGroup) findViewById(R.id.xRadioGroup);
         xRadioGroup.setOnCheckedChangeListener(new XRadioGroup.OnCheckedChangeListener() {
              @Override
@@ -47,8 +47,9 @@ java代码中使用方式与`android.widget.RadioGroup`完全一致
                   Log.d("TAG", checkedId + "is checked");
              }
          });
+```
 在xml中你可以里面嵌套使用
-
+```java
         <me.shihao.library.XRadioGroup
                 android:id="@+id/xRadioGroup"
                 android:layout_width="match_parent"
@@ -118,3 +119,10 @@ java代码中使用方式与`android.widget.RadioGroup`完全一致
                         android:text="New RadioButton"/>
                 </RelativeLayout>
             </me.shihao.library.XRadioGroup>
+```
+
+## 相关文章
+
+[如何使RadioGroup支持RadioButton任意嵌套](http://www.jianshu.com/p/b2ad0140ee8a)
+
+#### 如果你觉得有用，请不吝star
