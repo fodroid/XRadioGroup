@@ -4,7 +4,6 @@ import android.annotation.TargetApi;
 import android.content.Context;
 import android.content.res.TypedArray;
 import android.os.Build;
-import android.support.annotation.IdRes;
 import android.util.AttributeSet;
 import android.view.View;
 import android.view.ViewGroup;
@@ -112,7 +111,7 @@ public class XRadioGroup extends LinearLayout {
      * @see #getCheckedRadioButtonId()
      * @see #clearCheck()
      */
-    public void check(@IdRes int id) {
+    public void check(int id) {
         // don't even bother
         if (id != -1 && (id == mCheckedId)) {
             return;
@@ -129,7 +128,7 @@ public class XRadioGroup extends LinearLayout {
         setCheckedId(id);
     }
 
-    private void setCheckedId(@IdRes int id) {
+    private void setCheckedId(int id) {
         mCheckedId = id;
         if (mOnCheckedChangeListener != null) {
             mOnCheckedChangeListener.onCheckedChanged(this, mCheckedId);
@@ -152,7 +151,6 @@ public class XRadioGroup extends LinearLayout {
      * @see #check(int)
      * @see #clearCheck()
      */
-    @IdRes
     public int getCheckedRadioButtonId() {
         return mCheckedId;
     }
@@ -290,7 +288,7 @@ public class XRadioGroup extends LinearLayout {
          * @param group     the group in which the checked radio button has changed
          * @param checkedId the unique identifier of the newly checked radio button
          */
-        public void onCheckedChanged(XRadioGroup group, @IdRes int checkedId);
+        public void onCheckedChanged(XRadioGroup group, int checkedId);
     }
 
     private class CheckedStateTracker implements CompoundButton.OnCheckedChangeListener {

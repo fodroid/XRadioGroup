@@ -6,7 +6,7 @@
 <img src="https://github.com/fodroid/XRadioGroup/blob/master/capture/device-2017-02-10-161156.png" width="480" height="800"></img>
 
 # 更新
-### v1.3
+### v1.5
 * 解决依赖的库冲突问题
 
 #Usage 使用
