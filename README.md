@@ -1,7 +1,13 @@
+[![](https://jitpack.io/v/fodroid/XRadioGroup.svg)](https://jitpack.io/#fodroid/XRadioGroup)
+
 # XRadioGroup
 可以实现任意嵌套RadioButton
 
 <img src="https://github.com/fodroid/XRadioGroup/blob/master/capture/device-2017-02-10-161156.png" width="480" height="800"></img>
+
+# 更新
+### v1.3
+* 解决依赖的库冲突问题
 
 #Usage 使用
 
